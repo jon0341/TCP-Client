@@ -1,4 +1,4 @@
-# TCP-Client
+# TCP-chat-Client
 TCP Chat Client program, used with the UDP Server program
 
 -program developed for/tested on linux/MacOS. You will need the IP Address and the UDP port that the server is listening on to run the program. This port is manually entered when starting the server program.
