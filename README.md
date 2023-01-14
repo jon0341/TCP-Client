@@ -14,12 +14,12 @@ server will take client's address info and login ID, and store it in an array of
 option 1 will allow you to view the current active users also signed in on the application
 
 option 2 will allow you to chat with one of the users
-	1) receiving client is given option to accept or decline the message. if declined, both users are returned to the menu
-	2) if accepted, the requesting client messages first, and the users can message each other
-	3) users must take turns sending messages, max size 200 characters (199 plus null terminator)
-	4) to end the chat, either user sends an end of line character (backslash followed by zero): \0
+	-receiving client is given option to accept or decline the message. if declined, both users are returned to the menu
+	-if accepted, the requesting client messages first, and the users can message each other
+	-users must take turns sending messages, max size 200 characters (199 plus null terminator)
+	-to end the chat, either user sends an end of line character (backslash followed by zero): \0
 		-must be only character for that final message
-	5) after chat ends both users are returned to the menu
+	-after chat ends both users are returned to the menu
 	
 option 3 will log a user out. The server deletes that user from the user record, and the directory is updated
   
